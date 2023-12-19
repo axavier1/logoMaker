@@ -3,9 +3,9 @@
      width="300" height="200"
      xmlns="http://www.w3.org/2000/svg">
 
-     <polygon points="200,10 250,200 150,200" fill="blue" />
+     <rect width="150" height="150" fill="white" />
 
-  <text x="200" y="125" font-size="30" text-anchor="middle" fill="orange">ASD</text>
+  <text x="75" y="85" font-size="40" text-anchor="middle" fill="Black">ABC</text>
 
 </svg>
 
