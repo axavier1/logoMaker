@@ -27,4 +27,12 @@ inquirer.prompt([
         let shape = new Circle (response.shapecolor, response.text, response.textcolor)
         fs.writeFileSync("logo.svg", shape.render())
     }
+    if (response.shape == "Square"){
+        let shape = new Square (response.shapecolor, response.text, response.textcolor)
+        fs.writeFileSync("logo.svg", shape.render())
+    }
+    if (response.shape == "Triangle"){
+        let shape = new Triangle (response.shapecolor, response.text, response.textcolor)
+        fs.writeFileSync("logo.svg", shape.render())
+    }
 })
